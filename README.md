@@ -1,6 +1,5 @@
 # Data Science
 
+<img class="thumb-image loaded" img align="right" data-src="https://images.squarespace-cdn.com/content/v1/552dc6dae4b036b38b3d7a6e/1596468461467-NJXJZ6LAZ1XB9H8ZW53X/Blue+West.gif" data-image="https://images.squarespace-cdn.com/content/v1/552dc6dae4b036b38b3d7a6e/1596468461467-NJXJZ6LAZ1XB9H8ZW53X/Blue+West.gif" data-image-dimensions="1000x1000" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5f282cec6651f60bfb17498d" data-type="image" alt="Blue West.gif" data-image-resolution="1000w" src="https://images.squarespace-cdn.com/content/v1/552dc6dae4b036b38b3d7a6e/1596468461467-NJXJZ6LAZ1XB9H8ZW53X/Blue+West.gif?format=1000w" style="left: 0%; top: 0%; width: 20%; height: 20%; position: absolute;">
+
 I'm gonna start storing my Data Science folders here, so we can cluster the git material by subject.
-
-
-<img width="1110" height="435" src="https://insightlab.ufc.br/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/01/datascience-1.png.webp" class="attachment-full size-full wp-post-image" alt="" loading="lazy" srcset="https://insightlab.ufc.br/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/01/datascience-1.png.webp 1110w,  https://insightlab.ufc.br/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/01/datascience-1-300x118.png.webp 300w,  https://insightlab.ufc.br/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/01/datascience-1-1024x401.png.webp 1024w,  https://insightlab.ufc.br/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/01/datascience-1-768x301.png.webp 768w" sizes="(max-width: 1110px) 100vw, 1110px">
