@@ -5,7 +5,7 @@
 <h1 align=center><a target="_blank" href="https://demo.gethugothemes.com/liva" rel="nofollow">Análise Série Temporal - Previsão de Vendas</a> <a  target="_blank" href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fliva%2F">💸</a></h1>
 
 ### **Objetivo**
-* Produzir um modelo de previsão baseado nas vendas dos produtos da base de dados com o objetivo de prever o comportamento ao longo do tempo.
+* Produzir um modelo de previsão baseado nas vendas dos produtos da base de dados com o objetivo de prever o faturamento ao longo de determinado tempo.
 
 ### Importando algumas bibliotecas:
 
