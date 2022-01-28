@@ -1,24 +1,3 @@
----
-title: "Big Data - PySpark & SQL"
-date: 2021-12-06T19:36:52-03:00
-draft: False
-autoThumbnailImage: false
-thumbnailImagePosition: top
-thumbnailImage: /post_cover/big.png
-coverImage: /post_cover/big.png
-metaAlignment: center
-showSocial: true
-categories:
-- Big Data
-- PySpark
-tags: ["SQL", "Database","Big Data", "DataBricks"] 
-type: posts
-keywords:
-- Data Science
-- SQL
-- Data Bank
----
-
 # Big Data for Data Scientists - From Mega to Giga 
 
 In this post we are going to learn about the use of some tools to apply on Big Data, that differs a bit from a normal pandas-csv methodology.
