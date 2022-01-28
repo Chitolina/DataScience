@@ -2,7 +2,7 @@
   <img src="https://leadster.com.br/blog/wp-content/uploads/2021/12/O-que-e%CC%81-previsa%CC%83o-de-vendas.png" alt="Dicas para Não Errar na sua Previsão de Vendas para 2022" jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb" data-noaft="1" style="width: 436px; height: 232.533px; margin: 0px;">
 </p>
 
-<h1 align=center><a target="_blank" href="https://demo.gethugothemes.com/liva" rel="nofollow">Previsão de Vendas</a> <a  target="_blank" href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fliva%2F">💸</a></h1>
+<h1 align=center><a target="_blank" href="https://demo.gethugothemes.com/liva" rel="nofollow">Análise Série Temporal - Previsão de Vendas</a> <a  target="_blank" href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fliva%2F">💸</a></h1>
 
 ### **Objetivo**
 * Produzir um modelo de previsão baseado nas vendas dos produtos da base de dados com o objetivo de prever o comportamento ao longo do tempo.
