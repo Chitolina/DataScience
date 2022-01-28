@@ -2,24 +2,17 @@
 ### **Objetivo**
 * Produzir um modelo de previsão baseado nas vendas dos produtos da base de dados com o objetivo de prever o comportamento ao longo do tempo.
 
+### Importando algumas bibliotecas:
+
 ```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set_style("whitegrid", {"axes.facecolor": ".9"}) 
-
-#import os
-
-#from functools import reduce
 from pmdarima import auto_arima
 
-
 from sklearn.cluster import KMeans
-
-#import urllib
-#from io import BytesIO 
-#import requests
 
 import warnings
 warnings.filterwarnings('ignore')
