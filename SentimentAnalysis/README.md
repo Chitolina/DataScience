@@ -3,7 +3,7 @@
 </p>
 
 
-## **O objetivo deste projeto é gerar um modelo de Machine Learning para classificar o sentimentos dos usuários em relação às compras de acordo com os reviews dos produtos.**  
+### **O objetivo deste projeto é gerar um modelo de Machine Learning para classificar o sentimentos dos usuários em relação às compras de acordo com os reviews dos produtos.**  
 
 Um sistema de análise de sentimentos com conteúdo textual combina processamento de linguagem natural (PNL/NLP) com técnicas de Machine Learning
 para conferir pontuações ponderadas de sentimentos à sentenças.
