@@ -1,4 +1,4 @@
-## **Previsão de Vendas**
+## **Previsão de Vendas** 💸�📉📊
 ### **Objetivo**
 * Produzir um modelo de previsão baseado nas vendas dos produtos da base de dados com o objetivo de prever o comportamento ao longo do tempo.
 
