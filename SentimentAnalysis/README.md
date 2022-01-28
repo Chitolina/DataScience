@@ -15,9 +15,8 @@ Em suma, a inteligência artificial usa o processamento de linguagem natural par
 
 Além do NLP, alguns outros conceitos estão incluídos no processamento da Inteligência Artificial, entre eles machine learning e deep learning NLP.
 
-* Entregáveis:  
+* Desafio:  
 1. Data Pipeline para automatizar as etapas de ETL.  
-2. Modelo de classificação que dado um determinado conjunto de teste o modelo consiga retornar a classificação em positivo, negativo ou neutro.  
-3. Relatório com os insights gerados a partir dos dados.  
+2. Modelo de classificação que dado um determinado conjunto de teste o modelo consiga retornar a classificação em positivo, negativo ou neutro.
 
 Acompanhe o projeto inteiro aqui: https://github.com/Chitolina/DataScience/blob/main/SentimentAnalysis/NLP_DASH.ipynb
