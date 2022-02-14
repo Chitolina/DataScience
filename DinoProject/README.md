@@ -635,67 +635,8 @@ df[df['species'].str.contains("rex")==True]
 
 # Parece que rex (rei) não é um subnome aplicado a somente uma espécie. 🦎  🦖
 ```
+![jpg](2.png)
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>name</th>
-      <th>diet</th>
-      <th>period</th>
-      <th>lived_in</th>
-      <th>type</th>
-      <th>length</th>
-      <th>named_by</th>
-      <th>species</th>
-      <th>porte</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>203</th>
-      <td>othnielia</td>
-      <td>herbivorous</td>
-      <td>Late Jurassic 154-142 million years ago</td>
-      <td>USA</td>
-      <td>euornithopod</td>
-      <td>1.4</td>
-      <td>Marsh (1877)</td>
-      <td>rex</td>
-      <td>Pequeno</td>
-    </tr>
-    <tr>
-      <th>291</th>
-      <td>tyrannosaurus</td>
-      <td>carnivorous</td>
-      <td>Late Cretaceous 68-66 million years ago</td>
-      <td>USA</td>
-      <td>large theropod</td>
-      <td>12.0</td>
-      <td>Osborn (1905)</td>
-      <td>rex</td>
-      <td>Grande</td>
-    </tr>
-  </tbody>
-</table>
-</div>
 
 
 
