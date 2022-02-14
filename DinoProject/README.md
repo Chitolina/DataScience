@@ -1261,7 +1261,8 @@ Dentre outras análises, poderiam ser explorados de forma mais profunda:
 * Relação de cada autor com sua espécie descrita;
 * dentre outros.
 
-Este projeto certamente ampliou minha capacidade exploratória e meu conhecimento sobre o conteúdo analisado, e espero assim também gerar valor para quem tenha lido ;)
+Este projeto certamente ampliou minha capacidade exploratória e meu conhecimento sobre o conteúdo analisado, e espero assim também gerar valor para quem tenha lido.   
+        Até breve ;)
 
 <center><img alt="Close call." src="https://64.media.tumblr.com/ba2cdc15905b15d56b8874c37224918c/tumblr_nx3px96F5A1rwfctbo5_500.gifv" width="500" height="205" data-highres="https://64.media.tumblr.com/ba2cdc15905b15d56b8874c37224918c/tumblr_nx3px96F5A1rwfctbo5_640.gifv" data-width="600" data-height="246" class=""><center>
 
