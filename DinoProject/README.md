@@ -1,3 +1,5 @@
+<h1 align=center><a target="_blank" href="https://demo.gethugothemes.com/liva" rel="nofollow">Análise exploratória (EDA) e Manipulação de dados: Dinos</a> <a  target="_blank" href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fliva%2F">💸</a></h1>
+
 #### **Análise exploratória (EDA) e Manipulação de dados com o intuito de gerar insights a respeito de um pequeno dataset sobre dinossauros (maioria de variáveis categóricas).**
 ##### O dataset foi obtido a partir de um processo de webscraping de outro usuário (https://github.com/kjanjua26/jurassic-park), ao qual eu descobri aleatoriamente. Assim, curioso e obcecado por dinossauros, resolvi unir o útil ao agradável e aprimorar meu conhecimento em EDA com um assunto que me agrada. Como é um dataset pequeno e majoritariamente constituído de variáveis qualitativas, trabalhei apenas na geração de insights, sem aplicar nenhum modelo preditivo.
 
