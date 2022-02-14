@@ -167,13 +167,6 @@ plt.plot()
 ```
 
 
-
-
-    []
-
-
-
-
     
 ![png](output_13_1.png)
     
@@ -239,13 +232,6 @@ plt.plot()
     4.1m     0.003460
     Name: length, Length: 72, dtype: float64
     
-
-
-
-
-    []
-
-
 
 
     
@@ -594,11 +580,6 @@ plt.plot()
 
 
 
-    []
-
-
-
-
     
 ![png](output_38_2.png)
     
@@ -635,7 +616,7 @@ df[df['species'].str.contains("rex")==True]
 
 # Parece que rex (rei) não é um subnome aplicado a somente uma espécie. 🦎  🦖
 ```
-![jpg](2.png)
+![jpg](2.jpg)
 
 
 
@@ -647,54 +628,7 @@ df[df['species'].str.contains("rex")==True]
 df[df['name'].str.contains("tyrannosaurus")==True]
 ```
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>name</th>
-      <th>diet</th>
-      <th>period</th>
-      <th>lived_in</th>
-      <th>type</th>
-      <th>length</th>
-      <th>named_by</th>
-      <th>species</th>
-      <th>porte</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>291</th>
-      <td>tyrannosaurus</td>
-      <td>carnivorous</td>
-      <td>Late Cretaceous 68-66 million years ago</td>
-      <td>USA</td>
-      <td>large theropod</td>
-      <td>12.0</td>
-      <td>Osborn (1905)</td>
-      <td>rex</td>
-      <td>Grande</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+![jpg](3.jpg)
 
 
 
@@ -751,13 +685,6 @@ plt.plot()
     
 
 
-
-
-    []
-
-
-
-
     
 ![png](output_44_2.png)
     
@@ -795,13 +722,6 @@ plt.plot()
     
 
 
-
-
-    []
-
-
-
-
     
 ![png](output_46_2.png)
     
@@ -815,66 +735,7 @@ Talvez possamos agrupar alguns espaços de tempo para facilitar a análise.
 df.head(2) #A informação de anos junto dos períodos acaba criando muitos grupos diferentes
 ```
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>name</th>
-      <th>diet</th>
-      <th>period</th>
-      <th>lived_in</th>
-      <th>type</th>
-      <th>length</th>
-      <th>named_by</th>
-      <th>species</th>
-      <th>porte</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>aardonyx</td>
-      <td>herbivorous</td>
-      <td>Early Jurassic 199-189 million years ago</td>
-      <td>South Africa</td>
-      <td>sauropod</td>
-      <td>8.0</td>
-      <td>Yates Bonnan Neveling Chinsamy and Blackbeard ...</td>
-      <td>celestae</td>
-      <td>Grande</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>abelisaurus</td>
-      <td>carnivorous</td>
-      <td>Late Cretaceous 74-70 million years ago</td>
-      <td>Argentina</td>
-      <td>large theropod</td>
-      <td>9.0</td>
-      <td>Bonaparte and Novas (1985)</td>
-      <td>comahuensis</td>
-      <td>Grande</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+![jpg](4.jpg)
 
 
 
@@ -887,70 +748,7 @@ df["periodo_grupos"] = df["period"].str.split(" ").str[:2].str.join(" ")
 df.head(2)
 ```
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>name</th>
-      <th>diet</th>
-      <th>period</th>
-      <th>lived_in</th>
-      <th>type</th>
-      <th>length</th>
-      <th>named_by</th>
-      <th>species</th>
-      <th>porte</th>
-      <th>periodo_grupos</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>aardonyx</td>
-      <td>herbivorous</td>
-      <td>Early Jurassic 199-189 million years ago</td>
-      <td>South Africa</td>
-      <td>sauropod</td>
-      <td>8.0</td>
-      <td>Yates Bonnan Neveling Chinsamy and Blackbeard ...</td>
-      <td>celestae</td>
-      <td>Grande</td>
-      <td>Early Jurassic</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>abelisaurus</td>
-      <td>carnivorous</td>
-      <td>Late Cretaceous 74-70 million years ago</td>
-      <td>Argentina</td>
-      <td>large theropod</td>
-      <td>9.0</td>
-      <td>Bonaparte and Novas (1985)</td>
-      <td>comahuensis</td>
-      <td>Grande</td>
-      <td>Late Cretaceous</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
+![jpg](5.jpg)
 
 
 
@@ -981,13 +779,6 @@ plt.plot()
     USA                 0.003279
     Name: periodo_grupos, dtype: float64
     
-
-
-
-
-    []
-
-
 
 
     
@@ -1098,76 +889,7 @@ df.info()
 df.head(2)
 ```
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>name</th>
-      <th>diet</th>
-      <th>period</th>
-      <th>lived_in</th>
-      <th>type</th>
-      <th>length</th>
-      <th>named_by</th>
-      <th>species</th>
-      <th>porte</th>
-      <th>periodo_grupos</th>
-      <th>autor</th>
-      <th>ano</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>aardonyx</td>
-      <td>herbivorous</td>
-      <td>Early Jurassic 199-189 million years ago</td>
-      <td>South Africa</td>
-      <td>sauropod</td>
-      <td>8.0</td>
-      <td>Yates Bonnan Neveling Chinsamy and Blackbeard ...</td>
-      <td>celestae</td>
-      <td>Grande</td>
-      <td>Early Jurassic</td>
-      <td>Yates Bonnan Neveling Chinsamy and Blackbeard ...</td>
-      <td>2010</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>abelisaurus</td>
-      <td>carnivorous</td>
-      <td>Late Cretaceous 74-70 million years ago</td>
-      <td>Argentina</td>
-      <td>large theropod</td>
-      <td>9.0</td>
-      <td>Bonaparte and Novas (1985)</td>
-      <td>comahuensis</td>
-      <td>Grande</td>
-      <td>Late Cretaceous</td>
-      <td>Bonaparte and Novas</td>
-      <td>1985</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
+![jpg](6.jpg)
 
 
 Quais autores fizeram mais descobertas?
@@ -1200,13 +922,6 @@ plt.plot()
 
 
 
-
-
-    []
-
-
-
-
     
 ![png](output_61_2.png)
     
@@ -1235,15 +950,6 @@ sns.set_style("ticks")
 plt.title('Publicações: Ano')
 plt.plot()
 ```
-
-
-
-
-    []
-
-
-
-
     
 ![png](output_64_1.png)
     
@@ -1268,11 +974,6 @@ plt.plot()
 
 
 
-    []
-
-
-
-
     
 ![png](output_66_1.png)
     
@@ -1286,13 +987,6 @@ sns.set_style("ticks")
 sns.histplot(data=df, x="ano", bins=50, color='red')
 plt.plot()
 ```
-
-
-
-
-    []
-
-
 
 
     
